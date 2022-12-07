@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/bottomnavigationbarpage.dart';
 
 import 'futurebuilderpage.dart';
+import 'tabexamplepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,9 +16,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.brown,
       ),
-      home: const FutureBuilderPage(),
+      home: const BottomNavPage(),
     );
   }
 }
